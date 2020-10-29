@@ -291,11 +291,16 @@ footer{
     display: inline-block;
     margin-right: 20px;
     
+    
 }
 .descricao{
     display: inline-block;
+}
+
+.descricao a{
     text-decoration: none;
-      
+    color: white;
+    text-shadow: 2px 1px black;
 }
 
 .descricao img{
@@ -303,6 +308,14 @@ footer{
     border-radius: 50%;
 }
 
+.imgdev, .imgdev2{
+    display: inline-block;
+}
+
+.imgdev img{
+    width: 120px;
+
+}
 
 @media screen and (max-width: 1070px){
 
