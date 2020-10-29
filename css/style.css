@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    width: auto; 
+    height: auto;  
+    background-color: rgb(139, 146, 146);
+    border: 4px solid white;
+    
+}
+
+.box{ 
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    
+}
+
+.logo{
+    float: left;
+    width: 20%;
+    height: 80px;
+    background-image: url('../img/cvc-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px 50px;
+}
+
+.box .titulo h2{
+    margin: 30px 70px;
+    float: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(29, 29, 129);
+    text-shadow: 1px 2px white;
+
+}
+
+.container{
+    height: 750px;
+    width: 100%;
+    background-image: url('../img/precioza.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.formulario{
+    padding: 35px;
+}
+
+form{
+    width: 400px;
+    float: left;
+    height: 700px;
+    border: 5px solid rgba(0, 255, 255, 0.158);
+    padding: 20px;
+    text-align: left;
+    
+}
+
+form h2{
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 15px 0;
+}
+
+form p, span{
+    color: white;
+    text-shadow: 2px 1px black;
+    font-size: 21px;
+    padding: 15px 0;
+}
+
+form p:nth-of-type(1){
+    font-size: 25px;
+}
+
+form legend{
+    color: white;
+    text-shadow: 2px 1px black;
+    padding: 5px 0;
+    font-size: 22px;
+}
+
+form legend:nth-of-type(4){
+    margin-top: 15px;
+}
+
+form input[type=text], form input[type=email], form input[type=telefone]{
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+    
+}
+
+form input[type=text]:focus, form input[type=email]:focus, form input[type=telefone]:focus{
+    outline: 0;
+    border: 0;
+}
+
+form .radio_s{
+    margin: 10px 0;
+}
+
+form input[type=submit]{
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    background-color: rgba(0, 255, 255, 0.158);
+    color: white;
+    text-shadow: 2px 1px black;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.item img{
+    height: 300px;
+    border: 1px double black;
+    
+}
+
+.item{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.medio{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    border: 4px solid white;
+    text-align: center;
+    padding: 10px;
+}
+
+.medio h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(32, 20, 139);
+    text-shadow: 1px 1px white;
+    text-transform: uppercase;
+}
+
+.medio h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    color: rgb(32, 20, 139);
+    text-shadow: 1px 1px white;
+    text-transform: uppercase;
+}
+
+article{
+    border-bottom: 4px solid  rgba(0, 255, 255);
+}
+
+article p{
+    padding-top: 10px;
+    color: rgb(32, 20, 139);
+    
+}
+
+#myVideo{
+    width: 100%; 
+}
+  
+.content{
+    width: 100%;
+}
+  
+#myBtn{
+    width: 20%;
+    height: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 0;
+    background-color: rgba(0, 255, 255, 0.158);
+    color: white;
+    cursor: pointer;
+}
+
+.overlay{
+    position: relative;
+    top: -150px;
+    transition: 0.7s;
+    background: rgba(0,0,0,0);
+    color: white;
+    text-shadow: 1px 1px black;
+    opacity: 0.7;
+    line-height: 30px;
+    border-top: 4px solid rgba(0, 255, 255);
+    
+}
+  
+.overlay:hover{
+    background: rgba(0, 255, 255, 0.158);
+    opacity: 1;
+}
+
+#myBtn:hover{
+    background: rgba(10, 10, 206, 0.637);
+    color: white;
+    text-shadow: 2px 2px 8px white;
+}
+
+.final{
+    width: 100%;
+    height: auto;
+}
+
+.box1{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(32, 20, 139);
+    text-shadow: 1px 1px white;
+}
+
+.item2{
+    display: inline-block;
+    min-width: 30%;
+    width: 30%;
+
+}
+
+.final .item2 img{
+    border-radius: 50%;
+    width: 50%
+}
+.item2:nth-child(3){
+    width: 35%;
+    min-width: 35%;
+}
+
+.agencia{
+    width: 100%;
+    height: 350px;
+    background-image: url('../img/agencia_cvc.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 90%;
+    text-align: center;
+    align-items: center;
+}
+
+.agencia h2{
+    font-size: 35px;
+    color: rgb(32, 20, 139);
+    text-shadow: 1px 1px white;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.agencia p{
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+
+footer{
+    background-color: rgb(139, 146, 146);
+    width: 100%;
+    height: auto;
+    border: 4px solid white;
+    color: white;
+    text-shadow: 2px 1px black;
+    text-align: center;
+
+}
+
+.logo2{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.descricao{
+    display: inline-block;
+    text-decoration: none;
+      
+}
+
+.descricao img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 1070px){
+
+    .box1{
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+
+    }
+
+    .item2{
+        min-width: 40%;
+        width: 30%;
+        margin: 0 auto;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    .item2:nth-child(3){
+        width: 33%;
+        min-width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+
+    .box1{
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+        margin-top: -50px;
+        margin-bottom: 50px;
+
+    }
+    .item2{
+        display: block;
+        min-width: 50%;
+        width: 30%;
+        margin: 0 auto;
+        padding: 10px;
+
+    }
+
+    .item2:nth-child(3){
+        width: 35%;
+        min-width: 52%;
+    }
+    
+}
+
+
+
+
