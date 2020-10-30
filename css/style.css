@@ -367,29 +367,52 @@ footer{
     
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
 
-    .box1{
+    .box{ 
+        float: none;
+        width: auto;
+        height: auto;
+        text-align: center;
+        
+    }
+
+    .logo{
+        float: none;
+        width: 50%;
+        margin: auto;
+    }
+
+    .content{
+        width: auto;
+        height: auto;
+        min-height: 750px;
+    }
+
+    form{
+        float: none;
         width: 100%;
         height: auto;
-        min-height: 400px;
-        margin-top: -50px;
-        margin-bottom: 50px;
-
-    }
-    .item2{
-        display: block;
-        min-width: 50%;
-        width: 30%;
-        margin: 0 auto;
-        padding: 10px;
-
+        min-height: 700px;
+        
     }
 
-    .item2:nth-child(3){
-        width: 35%;
-        min-width: 52%;
+    .overlay{
+        top: 0;
+        background-color: rgba(0, 255, 255, 0.329);
+        
     }
+
+    .overlay:hover{
+        background-color: aqua;
+    }
+
+    .final{
+        width: auto;
+        height: auto;
+        margin-top: -300px;
+    }
+
     
 }
 
