@@ -367,6 +367,33 @@ footer{
     
 }
 
+@media screen and (max-width: 400px){
+
+    .box1{
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+        margin-top: -50px;
+        margin-bottom: 50px;
+
+    }
+    .item2{
+        display: block;
+        min-width: 50%;
+        width: 30%;
+        margin: 0 auto;
+        padding: 10px;
+
+    }
+
+    .item2:nth-child(3){
+        width: 35%;
+        min-width: 52%;
+    }
+    
+}
+
+
 
 
 
