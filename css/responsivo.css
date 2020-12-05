@@ -1,0 +1,99 @@
+@media screen and (max-width: 1070px){
+
+    .box1{
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+
+    }
+
+    .item2{
+        min-width: 40%;
+        width: 30%;
+        margin: 0 auto;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    .item2:nth-child(3){
+        width: 33%;
+        min-width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+
+    .box1{
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+        margin-top: -50px;
+        margin-bottom: 50px;
+
+    }
+    .item2{
+        display: block;
+        min-width: 50%;
+        width: 30%;
+        margin: 0 auto;
+        padding: 10px;
+
+    }
+
+    .item2:nth-child(3){
+        width: 35%;
+        min-width: 52%;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+
+    .box{ 
+        float: none;
+        width: auto;
+        height: auto;
+        text-align: center;
+        
+    }
+
+    .logo{
+        float: none;
+        width: 50%;
+        margin: auto;
+    }
+
+    .content{
+        width: auto;
+        height: auto;
+        min-height: 750px;
+    }
+
+    form{
+        float: none;
+        width: 100%;
+        height: auto;
+        min-height: 700px;
+        
+    }
+
+    .overlay{
+        top: 0;
+        background-color: rgba(0, 255, 255, 0.329);
+        
+    }
+
+    .overlay:hover{
+        background-color: aqua;
+    }
+
+    .final{
+        width: auto;
+        height: auto;
+        margin-top: -300px;
+    }
+
+    
+}
+
